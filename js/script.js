@@ -122,7 +122,7 @@ monogatari.script ({
 
 	'Telescope': [
 		'y Oh, come on! You really think it looks like a serious space telescope? 🤨',
-		'y Well, sure, it does catch breathtaking images of distant galaxies... But don’t you think it looks a *tiny* bit like an umbrella?',
+		'y Well, sure, it does catch breathtaking images of distant galaxies... But don’t you think it looks a <b>tiny</b> bit like an umbrella?',
 		
 		// Show the JWST as an umbrella background
 		'show scene url("img/umbrella.jpeg") with fadeIn',
@@ -297,9 +297,21 @@ monogatari.script ({
 
 'ContinueExploration': [
 	'y So, whether you think it’s Marvel-level VFX or an actual galaxy, one thing’s for sure: space never ceases to amaze! 🌌',
-	'y Let’s keep exploring and see what other cosmic wonders we stumble upon. Hopefully, no more bad VFX! 😆',
+	
+	// Transition to the final tribute
+	'show scene black with fadeOut',  // Fade to black before the tribute
+	'wait 2000',  // Wait for 2 seconds
+	'y Thank you for joining this cosmic journey.',
+
+	// Display the tribute image of the dog
+	'show scene url("img/dog.jpeg") with fadeIn',
+	'y Made in the loving memory of a dog named <b>Cookie</b> 🐾',
+	'y Cookie was a constant companion and the brightest star in our universe. 🌟',
+	
+	// Conclude the game with a touching end
 	'end'
 ]
+
 
 
 
