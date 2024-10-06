@@ -307,11 +307,14 @@ monogatari.script ({
 	'show scene url("img/dog.jpeg") with fadeIn',
 	'y Made in the loving memory of a dog named <b>Cookie</b> 🐾',
 	'y Cookie was a constant companion and the brightest star in our universe. 🌟',
-	
+
+	// Additional message tying in JWST and the concept of light
+	'y You know, since the JWST can capture light from the past, perhaps in another universe, another JWST is capturing an image of Cookie still alive, his light just now reaching them... 🐾✨',
+	'y Somewhere out there, the light from Cookie is still traveling, and in that distant place, he’s still shining, bright as ever.',
+
 	// Conclude the game with a touching end
 	'end'
 ]
-
 
 
 
