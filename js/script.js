@@ -53,26 +53,7 @@ monogatari.script ({
 	// The game starts here.
 	'Start': [
 		'play music background loop', // Start looping the background music
-		'show notification Welcome',
-		'centered Welcome to the JWST interactive experience!',
-		{
-			'Input': {
-				'Text': 'Please enter your name',
-				'Validation': name => name.length > 0,
-				'Save': name => {
-					this.storage ({
-						player: {
-							name
-						}
-					});
-				},
-				'Revert': () => this.storage ().player.name,
-				'Warning': 'You must enter a name!'
-			}
-		},
-		'centered Thank you, {{player.name}}! Let’s begin the fun part.',
-
-		'y Hi {{player.name}}! Welcome to the JWST interactive experience!',
+		'y Hi! Welcome to the JWST interactive experience!',
 		'y So, here’s a question for you: Do you think the JWST looks more like an umbrella or a cutting-edge space telescope?',
 		'show scene url("img/umbrella.jpeg") with fadeIn',
 		// Choice for user to pick a humorous response
