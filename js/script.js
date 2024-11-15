@@ -152,7 +152,7 @@ monogatari.script ({
 	'y Let me show you this stunning image captured by MIRI (Mid-Infrared Instrument) from the James Webb Space Telescope. It’s the <b>L1527 Protostar</b>!',
 
 	// Show the L1527 Protostar (hourglass image)
-	'show scene url("img/hourglass.png") with fadeIn',
+	'show scene url("img/hourglass.jpg") with fadeIn',
 	'y This is the <b>L1527 Protostar</b>, and just look at it... doesn’t it remind you of an hourglass? ⏳',
 	'y It’s almost like the universe is trying to tell us we’re running out of time to explore it!',
 
